@@ -1,6 +1,6 @@
-import javax.swing.JFrame;
+import javax.swing.*;
 public class FirstProject extends JFrame {
-    public void javaSwing() {
+    public  FirstProject() {
         setLayout(null);
         setSize(400, 400);
         setVisible(true);
