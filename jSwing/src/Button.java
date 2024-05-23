@@ -1,10 +1,12 @@
-import javax.swing.*;
+import javax.swing.JButton;
+import javax.swing.JFrame;
 
 public class Button {
     JFrame frame;
 
     public Button(){
         frame=new JFrame("This is the main Title");
+        JButton button=new JButton("Click Me");
         frame.setLayout(null);
         frame.setSize(400,400);
         frame.setVisible(true);
