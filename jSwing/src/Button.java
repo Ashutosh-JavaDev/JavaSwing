@@ -13,12 +13,12 @@ public class Button {
         button.setBounds(40,40,100,30);
         frame.add(button);
         JTextArea text=new JTextArea();
-        text.setBounds(50,70,100,40);
+        text.setBounds(40,90,100,40);
         frame.add(text);
         button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e){
-                text.add(text);
+                text.setText("This is the Action");
             }
         });
         frame.setLayout(null);
