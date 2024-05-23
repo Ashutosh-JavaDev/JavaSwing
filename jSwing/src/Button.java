@@ -8,5 +8,6 @@ public class Button {
         frame.setLayout(null);
         frame.setSize(400,400);
         frame.setVisible(true);
+        frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
     }
 }
