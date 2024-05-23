@@ -11,6 +11,6 @@ public class Button {
         frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
     }
     public static void main(String []args){
-        
+        Button ob=new Button();
     }
 }
