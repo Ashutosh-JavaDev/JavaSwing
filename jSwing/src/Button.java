@@ -7,6 +7,8 @@ public class Button {
     public Button(){
         frame=new JFrame("This is the main Title");
         JButton button=new JButton("Click Me");
+        button.setBounds(40,40,100,30);
+        button.add(button);
         frame.setLayout(null);
         frame.setSize(400,400);
         frame.setVisible(true);
