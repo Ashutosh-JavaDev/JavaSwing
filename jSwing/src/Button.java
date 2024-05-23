@@ -1,5 +1,7 @@
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JTextArea;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 public class Button {
@@ -10,10 +12,13 @@ public class Button {
         JButton button=new JButton("Click Me");
         button.setBounds(40,40,100,30);
         frame.add(button);
+        JTextArea text=new JTextArea();
+        text.setBounds(50,70,100,40);
+        frame.add(text);
         button.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e){
-                System.out.println("This is the Action");
+                text.add(text);
             }
         });
         frame.setLayout(null);
