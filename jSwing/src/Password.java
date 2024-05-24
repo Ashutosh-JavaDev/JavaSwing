@@ -15,15 +15,15 @@ public class Password {
         jbutton = new JButton("Check Password");
         jpasswordfield=new JPasswordField();
         textfield = new JTextField();
-        jlabel.setBounds(10, 25, 100, 30);
-        jbutton.setBounds(10, 50, 100, 30);
-        jpasswordfield.setBounds(25, 50, 100, 30);
-        textfield.setBounds(35, 45, 100, 30);
+        jlabel.setBounds(40, 10, 100, 30);
+        jbutton.setBounds(50, 100, 100, 30);
+        jpasswordfield.setBounds(150, 10, 100, 30);
+        textfield.setBounds(105, 45, 100, 30);
         jbutton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                textfield.getText();
+                textfield.setText(jpasswordfield.getText());
             }
         });
         jframe.add(jbutton);
