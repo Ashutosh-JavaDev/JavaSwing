@@ -10,7 +10,9 @@ public class Password {
         jframe=new JFrame("This Is Password Block");
         jlabel=new JLabel("Password");
         jbutton=new JButton("Check Password");
-
+        jlabel.setBounds(10,25,100,30);
+        jbutton.setBounds(10,50,100,30);
+        textfield.setBounds(25,25,100,30);
         jframe.setLayout(null);
         jframe.setSize(400,400);
         jframe.setVisible(true);
