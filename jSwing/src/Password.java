@@ -6,6 +6,6 @@ public class Password {
     JPasswordField jpasswordfield;
 
     public Password() {
-
+        jframe=new JFrame();
     }
 }
