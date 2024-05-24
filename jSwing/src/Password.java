@@ -1,5 +1,6 @@
 import javax.swing.*;
-
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 public class Password {
     JFrame jframe;
     JLabel jlabel;
@@ -15,6 +16,13 @@ public class Password {
         jbutton.setBounds(10,50,100,30);
         jpasswordfield.setBounds(25,50,100,30);
         textfield.setBounds(35,45,100,30);
+       jbutton.addActionListener(new ActionListener(){
+        @Override
+        public void actionPerformed(ActionEvent e){
+
+            textfield.getText();
+        }
+       });
         jframe.add(jbutton);
         jframe.add(jlabel);
         jframe.add(jpasswordfield);
