@@ -13,5 +13,6 @@ public class Password {
         jframe.setLayout(null);
         jframe.setSize(400,400);
         jframe.setVisible(true);
+        jframe.setDefaultCloseOperation(jframe.EXIT_ON_CLOSE);
     }
 }
