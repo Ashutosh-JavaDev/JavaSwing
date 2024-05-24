@@ -7,7 +7,6 @@ public class Password {
     JButton jbutton;
     public Password() {
         jframe=new JFrame("This Is Password Block");
-
         jlabel=new JLabel("Password");
         jbutton=new JButton("Check Password");
         jframe.setLayout(null);
