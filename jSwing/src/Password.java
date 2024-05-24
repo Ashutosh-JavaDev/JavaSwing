@@ -1,4 +1,6 @@
 import javax.swing.*;
+
+import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -16,6 +18,8 @@ public class Password {
         jpasswordfield=new JPasswordField();
         textfield = new JTextField();
         jlabel.setBounds(40, 10, 100, 30);
+        jbutton.setBackground(Color.red);
+        jbutton.setForeground(Color.BLACK);
         jbutton.setBounds(50, 100, 100, 30);
         jpasswordfield.setBounds(150, 10, 100, 30);
         textfield.setBounds(105, 45, 100, 30);
