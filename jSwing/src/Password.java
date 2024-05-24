@@ -9,20 +9,20 @@ public class Password {
     JLabel jlabel;
     JPasswordField jpasswordfield;
     JButton jbutton;
-    JTextField textfield;
+    JTextArea textfield;
 
     public Password() {
         jframe = new JFrame("This Is Password Block");
         jlabel = new JLabel("Password");
         jbutton = new JButton("Check Password");
         jpasswordfield=new JPasswordField();
-        textfield = new JTextField();
+        textfield = new JTextArea();
         jlabel.setBounds(40, 10, 100, 30);
         jbutton.setBackground(Color.red);
         jbutton.setForeground(Color.BLACK);
-        jbutton.setBounds(50, 100, 100, 30);
+        jbutton.setBounds(150, 100, 100, 30);
         jpasswordfield.setBounds(150, 10, 100, 30);
-        textfield.setBounds(105, 45, 100, 30);
+        textfield.setBounds(150, 45, 150, 30);
         jbutton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
