@@ -6,6 +6,8 @@ public class Password {
     JPasswordField jpasswordfield;
 
     public Password() {
-        jframe=new JFrame();
+        jframe=new JFrame("This Is Password Block");
+        jlabel=new JLabel("Password");
+
     }
 }
