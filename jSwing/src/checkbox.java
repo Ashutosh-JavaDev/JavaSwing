@@ -16,6 +16,7 @@ public class checkbox {
         checkboxtwo.setBounds(50,150,150,30);
         checkboxthree=new JCheckBox("Tea 40");
         checkboxthree.setBounds(50,200,150,30);
+        button=new JButton("Check Total");
         frame.setLayout(null);
         frame.setSize(400,400);
         frame.setVisible(true);
