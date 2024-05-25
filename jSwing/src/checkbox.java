@@ -8,5 +8,9 @@ public class checkbox {
     JCheckBox checkboxone,checkboxtwo,checkboxthree;
     public checkbox() {
         frame=new JFrame("This is Jframe box");
+        frame.setLayout(null);
+        frame.setSize(400,400);
+        frame.setVisible(true);
+        frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
     }
 }
