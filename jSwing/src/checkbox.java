@@ -48,8 +48,8 @@ public class checkbox implements ActionListener {
             amount += 40;
             msg += "Tea 40\n";
         }
-        msg = "---------------------\n";
-        JOptionPane.showMessageDialog(frame, "Total: " + amount + "Order: " + msg);
+       msg+=msg = "---------------------\n";
+        JOptionPane.showMessageDialog(frame,msg+"Total: " + amount);
     }
 
     public static void main(String[] args) {
