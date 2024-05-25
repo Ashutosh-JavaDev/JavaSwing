@@ -28,6 +28,6 @@ public class checkbox {
         frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
     }
     public static void main(String[]args){
-        
+        checkbox ob=new checkbox();
     }
 }
