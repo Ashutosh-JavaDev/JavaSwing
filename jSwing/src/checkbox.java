@@ -27,4 +27,7 @@ public class checkbox {
         frame.setVisible(true);
         frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
     }
+    public static void main(String[]args){
+        
+    }
 }
