@@ -10,6 +10,7 @@ public class checkbox {
     public checkbox() {
         frame=new JFrame("This is Jframe box");
         label=new JLabel("Food Items");
+        label.setBounds(50,50,100,20);
         checkboxone=new JCheckBox("Pizza 100");
         checkboxone.setBounds(50,100,150,30);
         checkboxtwo=new JCheckBox("Burger 100");
@@ -17,6 +18,7 @@ public class checkbox {
         checkboxthree=new JCheckBox("Tea 40");
         checkboxthree.setBounds(50,200,150,30);
         button=new JButton("Check Total");
+        button.setBounds(50,250,150,20);
         frame.add(button);
         frame.add(label);
         frame.add(checkboxone);
