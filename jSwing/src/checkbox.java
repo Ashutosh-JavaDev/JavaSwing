@@ -7,6 +7,6 @@ public class checkbox {
     JButton button;
     JCheckBox checkboxone,checkboxtwo,checkboxthree;
     public checkbox() {
-
+        frame=new JFrame("This is Jframe box");
     }
 }
