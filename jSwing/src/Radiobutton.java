@@ -24,4 +24,7 @@ public class Radiobutton {
         frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
 
     }
+    public static void main(String[]args){
+        Radiobutton ob=new Radiobutton();
+    }
 }
