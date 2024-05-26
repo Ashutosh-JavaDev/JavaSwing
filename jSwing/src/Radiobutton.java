@@ -18,6 +18,10 @@ public class Radiobutton {
         Female.setBounds(40,150,100,30);
         button = new JButton("Click");
         button.setBounds(40, 200,50,30);
+        frame.add(Male);
+        frame.add(button);
+        frame.add(label);
+        frame.add(Female);
         frame.setLayout(null);
         frame.setSize(400, 400);
         frame.setVisible(true);
