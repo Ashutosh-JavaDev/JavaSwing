@@ -18,6 +18,9 @@ public class Radiobutton implements ActionListener {
         Female.setBounds(40,150,100,30);
         button = new JButton("Click");
         button.setBounds(40, 200,150,30);
+        group=new ButtonGroup();
+        group.add(Male);
+        group.add(Female);
         button.addActionListener(this);
         frame.add(Male);
         frame.add(button);
@@ -33,11 +36,11 @@ public class Radiobutton implements ActionListener {
     public void actionPerformed(ActionEvent e){
         if(Male.isSelected()){
             JOptionPane.showMessageDialog(frame, "You are Male", null, JOptionPane.INFORMATION_MESSAGE);
-            Female.setSelected(false);
+            // Female.setSelected(false);
         }
         else if(Female.isSelected()){
             JOptionPane.showMessageDialog(frame, "You are Female", null, JOptionPane.INFORMATION_MESSAGE);
-            Male.setSelected(false);
+            // Male.setSelected(false);
         }
     }
     public static void main(String[]args){
