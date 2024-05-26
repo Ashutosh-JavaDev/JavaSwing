@@ -33,10 +33,11 @@ public class Radiobutton implements ActionListener {
     public void actionPerformed(ActionEvent e){
         if(Male.isSelected()){
             JOptionPane.showMessageDialog(frame, "You are Male", null, 0);
-
+            Female.setSelected(false);
         }
         else if(Female.isSelected()){
             JOptionPane.showMessageDialog(frame, "You are Female", null, 0);
+            Male.setSelected(false);
         }
     }
     public static void main(String[]args){
