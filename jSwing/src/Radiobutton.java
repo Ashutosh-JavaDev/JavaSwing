@@ -7,7 +7,7 @@ public class Radiobutton implements ActionListener {
     JLabel label;
     JButton button;
     JRadioButton Male, Female;
-
+    ButtonGroup group;
     public Radiobutton() {
         frame = new JFrame("Check Gender");
         label = new JLabel("Gender");
@@ -32,11 +32,11 @@ public class Radiobutton implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e){
         if(Male.isSelected()){
-            JOptionPane.showMessageDialog(frame, "You are Male", null, 0);
+            JOptionPane.showMessageDialog(frame, "You are Male", null, JOptionPane.INFORMATION_MESSAGE);
             Female.setSelected(false);
         }
         else if(Female.isSelected()){
-            JOptionPane.showMessageDialog(frame, "You are Female", null, 0);
+            JOptionPane.showMessageDialog(frame, "You are Female", null, JOptionPane.INFORMATION_MESSAGE);
             Male.setSelected(false);
         }
     }
