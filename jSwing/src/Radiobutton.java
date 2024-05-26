@@ -17,7 +17,7 @@ public class Radiobutton {
         Female=new JRadioButton("Female");
         Female.setBounds(40,150,100,30);
         button = new JButton("Click");
-        button.setBounds(40, 200,50,30);
+        button.setBounds(40, 200,150,30);
         frame.add(Male);
         frame.add(button);
         frame.add(label);
