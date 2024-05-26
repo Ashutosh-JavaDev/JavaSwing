@@ -31,7 +31,13 @@ public class Radiobutton implements ActionListener {
     }
     @Override
     public void actionPerformed(ActionEvent e){
-        
+        if(Male.isSelected()){
+            JOptionPane.showMessageDialog(frame, "You are Male", null, 0);
+
+        }
+        else if(Female.isSelected()){
+            JOptionPane.showMessageDialog(frame, "You are Female", null, 0);
+        }
     }
     public static void main(String[]args){
         Radiobutton ob=new Radiobutton();
