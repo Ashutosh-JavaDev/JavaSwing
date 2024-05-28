@@ -8,9 +8,10 @@ public class combogbox {
         JLabel jlabel=new JLabel("Select City");
         jlabel.setBounds(15,50,100,20);
         JButton jbutton=new JButton("Click Me");
-        jbutton.setBounds(100,100,100,30);
+        jbutton.setBounds(50,100,100,30);
         String city[]={"Bhagalpur, Ranchi, Bhopal, Delhi, Pune"};
         JComboBox jcombox=new JComboBox(city); 
+        jcombox.setBounds(50,50,100,30);
         jframe.setLayout(null);
         jframe.setSize(400,400);
         jframe.setVisible(true);
