@@ -12,6 +12,9 @@ public class combogbox {
         String city[]={"Bhagalpur, Ranchi, Bhopal, Delhi, Pune"};
         JComboBox jcombox=new JComboBox(city); 
         jcombox.setBounds(50,50,100,30);
+        jframe.add(jcombox);
+        jframe.add(jlabel);
+        jframe.add(jbutton);
         jframe.setLayout(null);
         jframe.setSize(400,400);
         jframe.setVisible(true);
