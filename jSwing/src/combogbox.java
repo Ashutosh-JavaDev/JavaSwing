@@ -20,4 +20,7 @@ public class combogbox {
         jframe.setVisible(true);
         jframe.setDefaultCloseOperation(jframe.EXIT_ON_CLOSE);
     }
+    public static void main(String[]args){
+        combogbox ob=new combogbox();
+    }
 }
