@@ -9,12 +9,18 @@ public class combogbox {
         jlabel.setBounds(15,50,100,20);
         JButton jbutton=new JButton("Click Me");
         jbutton.setBounds(50,100,100,30);
-        String city[]={"Bhagalpur, Ranchi, Bhopal, Delhi, Pune"};
+        String city[]={"Bhagalpur", "Ranchi", "Bhopal", "Delhi", "Pune"};
         JComboBox jcombox=new JComboBox(city); 
-        jcombox.setBounds(50,50,100,30);
+        jcombox.setBounds(100,50,150,30);
         jframe.add(jcombox);
         jframe.add(jlabel);
         jframe.add(jbutton);
+        jbutton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e){
+                
+            }
+        });
         jframe.setLayout(null);
         jframe.setSize(400,400);
         jframe.setVisible(true);
