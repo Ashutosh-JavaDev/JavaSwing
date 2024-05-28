@@ -9,5 +9,7 @@ public class combogbox {
         JButton jbutton=new JButton("Click Me");
         String city[]={"Bhagalpur, Ranchi, Bhopal, Delhi, Pune"};
         JComboBox jcombox=new JComboBox(city); 
+        jframe.setLayout(null);
+        jframe.setSize(400,400);
     }
 }
