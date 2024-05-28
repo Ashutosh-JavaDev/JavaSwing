@@ -18,7 +18,7 @@ public class combogbox {
         jbutton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e){
-                
+                JOptionPane.showMessageDialog(jframe, "You are From: "+jcombox.getItemAt(jcombox.getSelectedIndex()), null, 0);
             }
         });
         jframe.setLayout(null);
