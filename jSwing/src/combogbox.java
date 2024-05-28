@@ -11,5 +11,7 @@ public class combogbox {
         JComboBox jcombox=new JComboBox(city); 
         jframe.setLayout(null);
         jframe.setSize(400,400);
+        jframe.setVisible(true);
+        jframe.setDefaultCloseOperation(jframe.EXIT_ON_CLOSE);
     }
 }
