@@ -18,8 +18,8 @@ public class combogbox {
         jbutton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e){
-                // JOptionPane.showMessageDialog(jframe, "You are From: "+jcombox.getItemAt(jcombox.getSelectedIndex()), null, 0);
-                jlabel.setText("Your are selected: "+jcombox.getItemAt(jcombox.getSelectedIndex()));
+                JOptionPane.showMessageDialog(jframe, "You are From: "+jcombox.getItemAt(jcombox.getSelectedIndex()), null, 0);
+                // jlabel.setText("Your are selected: "+jcombox.getItemAt(jcombox.getSelectedIndex()));
             }
         });
         jframe.setLayout(null);
